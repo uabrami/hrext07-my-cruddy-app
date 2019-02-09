@@ -9,23 +9,23 @@ $(document).ready(function(){
   // this is where we jquery
   //var keyData = 'ourKey'; // going to need to make this dynamic?
 
-
-  $('.btn-add').on('click', function(e){
+//HABIT 1
+  //Add Button
+  $('.btn-add-habit1').on('click', function(e){
     console.log(e);
-    var keyData = $('.input-key').val();
-    var valueData = $('.input-value').val();
+    var keyDataHabit1 = 'habit1' + $('.input-habit1').val();
+    var valueDataHabit1 = $('.input-habit1').val();
     // write to db
-    localStorage.setItem(keyData, valueData);
+    localStorage.setItem(keyDataHabit1, valueDataHabit1);
     // read from db
-    var displayText = keyData + ' | ' + localStorage.getItem(keyData);
+    var displayTextHabit1 = localStorage.getItem(keyDataHabit1);
     // this only displays the last one? might want to switch to html
     // and append a div
     // <div class="display-data-item" data-keyValue="keyData">valueData</div>
     // if you use backticks ` you can use ${templateLiterals}
     // TODO make this vars make sense across the app
-    $('.container-data').html('<div class="display-data-item" data-keyValue="'+ keyData +'">'+valueData+'</div>');
-    $('.input-key').val('');
-    $('.input-value').val('');
+    $('.container-data-habit1').html('<div class="display-data-habit1" data-keyValue="'+displayTextHabit1+'</div>');
+    $('.input-habit1').val('');
   });
 
 
