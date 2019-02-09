@@ -17,7 +17,7 @@ Everyone has things they "wish they could do" every day, like "I wish I could me
 - [ ] How to view data? (style?)
     - [ ]Once user completes questions, a box is created for each habit below
 - [ ] UI/UX considerations (how are we going to use this)
-    ***Page 1: Preferences
+    ***Section 1 Preferences
   - [ ]Personal prefences
          - Choose 3 habits (limit to three because of "science" around habit creation)
             1.
@@ -26,13 +26,26 @@ Everyone has things they "wish they could do" every day, like "I wish I could me
          - How many times a day/a week?
          - How long does it take?
             -Reminder options: on or off, snooze, What time do you want to do this habit? (start time)
-         - Notes
-    ***Page 2: Daily home screen
-  - [ ] A check box appears next to the habit
+         - 3-5 feeling words you will feel when you do this habit
+    ***Section 2: Daily home screen
+  - [ ] Habits show up in individual color boxes
+        -font-family: serif
+        -text-shadow: 4px 4px 5px blue;
+        -font-size: 16px;
+  - [ ] Feeling words show up under the habit in different fonts
+        -font-family: serif, sans-serif, monospace, cursive, fantasy
+        -text-shadow: 4px 4px 5px blue;
+        -font-size: 12px;
+  - [ ] A check box appears next to the habit with "Did it?" next to it
   - [ ]An "partytime" animation is triggered when a task is "done" ("Classic" style for now)
-  - [ ]Partytime sound (user can turn off or on to have a sound for Partytime)
-    ***Features
+  - [ ]Partytime sound
+
+
+### Intermediate Reqs
   - [ ] Set reminder through app
+  - [ ] Turn sections into pages
+  - [ ] Animation bursts over entire page, not just in the habit
+  - [ ] User can turn off or on to have a sound for Partytime
 
 
 ### Advanced Reqs
