@@ -23,11 +23,15 @@
 container for the response-feedback (start with alert)
 -->
 </head>
-<body>
+<body bgcolor="#F2D2FA">
+
+<div class="container-header">
+  <header class="header-main">LifeHack</header>
+</div>
 
 <div class="container-main">
-  <header class="header">LifeHack</header>
   <div class="container-form">
+    <p>Enter each habit and press submit, then add 3-5 words describing how you will feel when your habit is in place.</p>
     <input type="text" class="input-habit1" placeholder="habit 1">
     <button class="btn-add-habit1">Add Habit</button>
     <button class="btn-delete-habit1">Delete</button>
@@ -40,46 +44,47 @@ container for the response-feedback (start with alert)
     <button class="btn-delete-habit2">Delete</button>
     <input type="text" class="input-habit2-feelingwords" placeholder="feeling words">
     <button class="btn-add-habit2-feelingwords">Add Feeling Words</button>
+    <button class="btn-delete-habit2-feelingwords">Delete Feeling Words</button>
 
     <input type="text" class="input-habit3" placeholder="habit 3">
     <button class="btn-add-habit3">Add Habit</button>
     <button class="btn-delete-habit3">Delete</button>
     <input type="text" class="input-habit3-feelingwords" placeholder="feeling words">
     <button class="btn-add-habit3-feelingwords">Add Feeling Words</button>
+    <button class="btn-delete-habit3-feelingwords">Delete Feeling Words</button>
 <!--     <button class="btn-add">Submit</button>
  --><!--     <button class="btn-update">Update</button> -->
 <!--     <button class="btn-delete">Delete</button> -->
-    <button class="btn-clear">Clear all</button>
+</div>
+<div class="container-clearAll">
+    <button class="btn-clear">Clear all Habits and Feeling Words</button>
   </div>
+
+  <div class="container-header">
+    <header class="header-dashboard">Dashboard</header>
+  </div>
+
   <div class="container-habit">
-    <header class="header">Dashboard</header>
     <div class="container-habit1">
+    <header class="header-habit">Habit 1</header>
       <div class="container-data-habit1"></div>
-      </div>
       <div class="container-data-habit1-feelingwords"></div>
       <div class="container-data-habit1-checkbox"></div>
-      </div>
       <div class="container-data-habit1-animation"></div>
-      </div>
     </div>
     <div class="container-habit2">
       <div class="container-data-habit2"></div>
-      </div>
       <div class="container-data-habit2-feelingwords"></div>
       <div class="container-data-habit2-checkbox"></div>
-      </div>
       <div class="container-data-habit2-animation"></div>
-      </div>
     </div>
     <div class="container-habit3">
       <div class="container-data-habit3"></div>
-      </div>
       <div class="container-data-value3-feelingwords"></div>
       <div class="container-data-habit3-checkbox"></div>
-      </div>
       <div class="container-data-habit3-animation"></div>
       </div>
-    </div>
+  </div>
 </div>
 
 </body>

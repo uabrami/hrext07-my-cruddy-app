@@ -10,14 +10,14 @@ $(document).ready(function(){
  //Clear all data
    $('.btn-clear').click(function(){
     localStorage.clear();
-    $('.container-habit').text('');
+    $('.container-data-habit1').text('');
+    $('.container-data-habit1-feelingwords').text('');
   });
 
 //*********HABIT 1*********
 
   //Add Habit Button
   $('.btn-add-habit1').on('click', function(e){
-    console.log(e)
   var keyDataHabit1 = 'habit1'
   var valueDataHabit1 = $('.input-habit1').val();
     // write to db
@@ -39,7 +39,6 @@ $('.container-data-habit1').text('');
 //*********HABIT 1 FEELING WORDS*********
   //Add Habit FeelingWords Button
   $('.btn-add-habit1-feelingwords').on('click', function(e){
-    console.log(e)
   var keyDataHabit1Fw = 'fw1'
   var valueDataHabit1Fw = $('.input-habit1-feelingwords').val();
     // write to db
