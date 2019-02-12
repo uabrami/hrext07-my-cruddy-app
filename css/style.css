@@ -43,6 +43,12 @@ body {
   margin: 5px
 }
 
+.habit-main{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .container-habit1{
   font-size: 20px;
   color: #000000;
@@ -54,13 +60,20 @@ body {
   background-color: #FFF8DC;
   flex-direction: column;
   font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
-  margin: 5px;
+/*  margin: 20px;*/
   align-content: space-between
 }
 
 .container-data-habit1-feelingwords{
   font-style: italic;
   margin-left: 10px;
+}
+
+.checkbox{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 5px;
 }
 .container-habit2{
   font-size: 20px;
@@ -73,7 +86,7 @@ body {
   background-color: #FFF8DC;
   flex-direction: column;
   font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
-  margin: 5px;
+/*  margin: 20px;*/
   align-content: space-between
 }
 
@@ -92,7 +105,7 @@ body {
   background-color: #FFF8DC;
   flex-direction: column;
   font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
-  margin: 5px;
+/*  margin: 20px;*/
   align-content: space-between
 }
 
@@ -105,4 +118,13 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
   margin: 5px;
+  align-content: space-between
+}
+
+.animation{
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
 }
