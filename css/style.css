@@ -143,6 +143,7 @@ button {
   margin-bottom: 10px;
 }
 .animation{
+  height: 100px;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin: 5px;

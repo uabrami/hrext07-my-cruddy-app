@@ -10,38 +10,39 @@ Create Read Update and Delete framework using JS
 Everyone has things they "wish they could do" every day, like "I wish I could meditate each morning", or "I wish I could get in the habit of excersing". This app reinforces and supports creation of habits.
 
 ### Basic Reqs
-- [ ] Where to store data? (localstorage)
-- [ ] How to capture data? (web form)
-- [ ] How to modify data? (update action, delete action)
+- [x] Where to store data? (localstorage)
+- [x] How to capture data? (web form)
+- [x] How to modify data? (update action, delete action)
     - [ ]Users can delete and update habits
-- [ ] How to view data? (style?)
-    - [ ]Once user completes questions, a box is created for each habit below
-- [ ] UI/UX considerations (how are we going to use this)
+- [x] How to view data? (style?)
+    - [x]Once user completes questions, a box is created for each habit below
+- [x] UI/UX considerations (how are we going to use this)
+    ***Body
+  - [x]Find background picture
     ***Section 1 Preferences
-  - [ ]Personal prefences
+  - [x]Personal prefences
          - Choose 3 habits (limit to three because of "science" around habit creation)
             1.
             2.
             3.
-         - How many times a day/a week?
-         - How long does it take?
-            -Reminder options: on or off, snooze, What time do you want to do this habit? (start time)
-         - 3-5 feeling words you will feel when you do this habit
+  - [x]1-3 feeling words you will feel when you do this habit
+  - [x]User is able to delete or change habits or feeling words with seperate buttons.
+  - [x]User is able to clear all habits and feeling words with button.
+
     ***Section 2: Daily home screen
-  - [ ] Habits show up in individual color boxes
-        -font-family: serif
-        -text-shadow: 4px 4px 5px blue;
-        -font-size: 16px;
-  - [ ] Feeling words show up under the habit in different fonts
-        -font-family: serif, sans-serif, monospace, cursive, fantasy
-        -text-shadow: 4px 4px 5px blue;
-        -font-size: 12px;
-  - [ ] A check box appears next to the habit with "Did it?" next to it
-  - [ ]An "partytime" animation is triggered when a task is "done" ("Classic" style for now)
-  - [ ]Partytime sound
+  - [x] Habits show up in individual color boxes
+  - [x] Feeling words show up under the habit italized
+  - [x] A button appears next to the habit with "Did it?" next to it
+  - [x]When checked, a "great job!" graphic pops up next to it.
+  - [x]A "partytime" animation is triggered when a task is "done" ("Classic" style for now)
 
 
 ### Intermediate Reqs
+  - [ ]Partytime sound
+  - [ ] Add items below:
+           - [ ] How many times a day/a week?
+           - [ ] How long does it take?
+           - [ ] Reminder options: on or off, snooze, What time do you want to do this habit? (start time)
   - [ ] Set reminder through app
   - [ ] Turn sections into pages
   - [ ] Animation bursts over entire page, not just in the habit
