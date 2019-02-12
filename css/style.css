@@ -27,6 +27,7 @@ button {
   font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   text-shadow: 4px 4px 5px #8B008B;
   font-size: 45px;
+  letter-spacing: 6px;
 }
 
 .container-header{
@@ -40,6 +41,7 @@ button {
   font-size: 30px;
   display: flex;
   justify-content: center;
+  margin-bottom: 30px
 }
 
 .header-habit{
@@ -52,14 +54,16 @@ button {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 1000px;
+  width: 850px;
   flex-direction: row;
+  margin-left: 50px
 }
 
 .container-clearAll{
   display: flex;
   justify-content: flex-start;
-  margin-top: 10px
+  margin-top: 10px;
+  margin-left: 50px;
 }
 
 .habit-main{
