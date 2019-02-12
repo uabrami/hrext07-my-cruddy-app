@@ -4,11 +4,24 @@ body {
 }
 
 input {
-  margin-right: 10px
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-size: 14px;
+}
+
+p{
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-size: 14px;
 }
 
 button {
-  margin-right: 10px
+  padding-top: 5px;
+  margin-right: 10px;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-size: 14px;
+  border-radius: 16px;
+  margin-bottom: 10px;
 }
 .header-main{
   font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
@@ -39,7 +52,7 @@ button {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 740px;
+  width: 1000px;
   flex-direction: row;
 }
 
