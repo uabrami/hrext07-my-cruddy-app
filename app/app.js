@@ -61,7 +61,7 @@ $('.container-data-habit1-feelingwords').text('');
 
 
 $('.container-data-habit1-checkbox').one('click', function(e){
-    $('.container-data-habit1-checkbox').append('<div class="container-data-habit1-greatjob"><img src="GreatJob_1.png" alt="greatJob"/></div>');
+    $('.container-data-habit1-checkbox').append('<div class="container-data-habit1-greatjob greatJob"><img src="GreatJob_1.png" alt="greatJob"/></div>');
 
     });
 
@@ -114,7 +114,7 @@ $('.container-data-habit2-feelingwords').text('');
 
 
 $('.container-data-habit2-checkbox').one('click', function(e){
-    $('.container-data-habit2-checkbox').append('<div class="container-data-habit2-greatjob"><img src="GreatJob_2.png" alt="greatJob"/></div>');
+    $('.container-data-habit2-checkbox').append('<div class="container-data-habit2-greatjob greatJob"><img src="GreatJob_2.png" alt="greatJob"/></div>');
 
     })
 
@@ -166,7 +166,7 @@ $('.container-data-habit3-feelingwords').text('');
 
 
 $('.container-data-habit3-checkbox').one('click', function(e){
-    $('.container-data-habit3-checkbox').append('<div class="container-data-habit3-greatjob"><img src="GreatJob_3.png" alt="greatJob"/></div>');
+    $('.container-data-habit3-checkbox').append('<div class="container-data-habit3-greatjob greatJob"><img src="GreatJob_3.png" alt="greatJob"/></div>');
 
     });
 

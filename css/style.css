@@ -3,11 +3,17 @@ body {
   background-repeat: no-repeat;
 }
 
+input {
+  margin-right: 10px
+}
+
+button {
+  margin-right: 10px
+}
 .header-main{
   font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   text-shadow: 4px 4px 5px #8B008B;
   font-size: 45px;
-
 }
 
 .container-header{
@@ -33,22 +39,24 @@ body {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 700px;
+  width: 740px;
   flex-direction: row;
 }
 
 .container-clearAll{
   display: flex;
   justify-content: flex-start;
-  margin: 5px
+  margin-top: 10px
 }
 
 .habit-main{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
-  width: 1400px;
-  align-content: space-between
+  align-content: space-between;
+  box-sizing: border-box;
+  width: 1500px;
+  margin-left: 50px
 
 }
 
@@ -65,6 +73,8 @@ body {
   font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
 /*  margin: 20px;*/
   align-content: space-between
+  margin-right: 40px;
+
 }
 
 .container-data-habit1-feelingwords{
@@ -72,12 +82,6 @@ body {
   margin-left: 10px;
 }
 
-.checkbox{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  margin: 5px;
-}
 .container-habit2{
   font-size: 20px;
   color: #000000;
@@ -117,13 +121,27 @@ body {
   margin-left: 10px;
 }
 
-.checkbox{
+.checkbox {
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin: 5px;
-  align-content: space-between
+  margin-left: 40px;
+  margin-right: 40px;
+  align-content: space-between;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 10px;
 }
 
+
+.greatJob {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-content: space-between
+  margin-bottom: 10px;
+}
 .animation{
   justify-content: flex-start;
   flex-wrap: wrap;
