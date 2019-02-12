@@ -64,7 +64,7 @@ $('.container-data-habit1-checkbox').one('click', function(e){
     $('.container-data-habit1-checkbox').append('<div class="container-data-habit1-greatjob greatJob"><img src="GreatJob_1.png" alt="greatJob"/></div>');
 
     $('.container-data-habit1-animation').append(
-    '<div style="width:100%;height:0;padding-bottom:59%;position:relative;"><iframe src="https://giphy.com/embed/CMVxmb8y8wxQA" width="150%" height="150%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>')
+    '<div style="width:100%;height:0;padding-bottom:59%;position:relative;"><iframe src="https://giphy.com/embed/CMVxmb8y8wxQA" width="175%" height="175%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>')
 
     });
 
@@ -120,7 +120,7 @@ $('.container-data-habit2-checkbox').one('click', function(e){
     $('.container-data-habit2-checkbox').append('<div class="container-data-habit2-greatjob greatJob"><img src="GreatJob_2.png" alt="greatJob"/></div>');
 
     $('.container-data-habit2-animation').append(
-    '<div style="width:100%;height:0;padding-bottom:59%;position:relative;"><iframe src="https://giphy.com/embed/IjmMzurYulKEw" width="150%" height="150%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>')
+    '<div style="width:90%;height:1;padding-bottom:59%;position:relative;"><iframe src="https://giphy.com/embed/IjmMzurYulKEw" width="190%" height="190%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>')
 
     })
 
@@ -176,7 +176,7 @@ $('.container-data-habit3-checkbox').one('click', function(e){
     $('.container-data-habit3-checkbox').append('<div class="container-data-habit3-greatjob greatJob"><img src="GreatJob_3.png" alt="greatJob"/></div>');
 
     $('.container-data-habit3-animation').append(
-    '<div style="width:100%;height:0;padding-bottom:59%;position:relative;"><iframe src="https://giphy.com/embed/JzqRWjBTKZXSE" width="150%" height="150%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>')
+    '<div style="width:100%;height:0;padding-bottom:59%;position:relative;"><iframe src="https://giphy.com/embed/JzqRWjBTKZXSE" width="175%" height="175%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>')
 
     });
 

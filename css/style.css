@@ -54,7 +54,7 @@ button {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 850px;
+  width: 830px;
   flex-direction: row;
   margin-left: 50px
 }
@@ -87,7 +87,7 @@ button {
   height: 100px;
   background-color: #FFF8DC;
   flex-direction: column;
-  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 /*  margin: 20px;*/
   align-content: space-between
   margin-right: 40px;
@@ -96,6 +96,7 @@ button {
 
 .container-data-habit1-feelingwords{
   font-style: italic;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   margin-left: 10px;
 }
 
@@ -109,13 +110,14 @@ button {
   height: 100px;
   background-color: #FFF8DC;
   flex-direction: column;
-  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 /*  margin: 20px;*/
   align-content: space-between
 }
 
 .container-data-habit2-feelingwords{
   font-style: italic;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   margin-left: 10px;
 }
 .container-habit3{
@@ -128,13 +130,14 @@ button {
   height: 100px;
   background-color: #FFF8DC;
   flex-direction: column;
-  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 /*  margin: 20px;*/
   align-content: space-between
 }
 
 .container-data-habit3-feelingwords{
   font-style: italic;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   margin-left: 10px;
 }
 
@@ -163,7 +166,6 @@ button {
   height: 100px;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin: 5px;
   width: 100px;
   height: 100px;
 }
