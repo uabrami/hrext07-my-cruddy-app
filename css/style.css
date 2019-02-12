@@ -1,6 +1,11 @@
+body {
+  background-image: url("field.jpeg");
+  background-repeat: no-repeat;
+}
+
 .header-main{
   font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-  text-shadow: 4px 4px 5px #68FAE6;
+  text-shadow: 4px 4px 5px #8B008B;
   font-size: 45px;
 
 }
@@ -12,10 +17,16 @@
 
 .header-dashboard{
   font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-  text-shadow: 4px 4px 5px #68FAE6;
+  text-shadow: 4px 4px 5px #8B008B;
   font-size: 30px;
   display: flex;
   justify-content: center;
+}
+
+.header-habit{
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  text-shadow: 4px 4px 5px #8B008B;
+  font-size: 30px;
 }
 
 .container-form{
@@ -33,15 +44,18 @@
 }
 
 .container-habit1{
+  font-size: 20px;
+  color: #000000;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   width: 1100px;
   height: 100px;
-  background-color: #68FAE6;
+  background-color: #FFF8DC;
   flex-direction: column;
-  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
   margin: 5px;
+  align-content: space-between
 }
 
 .container-data-habit1-feelingwords{
@@ -49,20 +63,40 @@
   margin-left: 10px;
 }
 .container-habit2{
+  font-size: 20px;
+  color: #000000;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 700px;
-  background-color: #F3B6FB;
+  width: 1100px;
+  height: 100px;
+  background-color: #FFF8DC;
   flex-direction: column;
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  margin: 5px;
+  align-content: space-between
 }
 
+.container-data-habit2-feelingwords{
+  font-style: italic;
+  margin-left: 10px;
+}
 .container-habit3{
+  font-size: 20px;
+  color: #000000;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 700px;
-  background-color: #B6BAFB;
+  width: 1100px;
+  height: 100px;
+  background-color: #FFF8DC;
   flex-direction: column;
+  font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  margin: 5px;
+  align-content: space-between
 }
 
+.container-data-habit3-feelingwords{
+  font-style: italic;
+  margin-left: 10px;
+}

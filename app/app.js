@@ -57,6 +57,96 @@ localStorage.removeItem('fw1');
 $('.container-data-habit1-feelingwords').text('');
   });
 
+//*********HABIT 2*********
+
+  //Add Habit Button
+  $('.btn-add-habit2').on('click', function(e){
+  var keyDataHabit2 = 'habit2'
+  var valueDataHabit2 = $('.input-habit2').val();
+    // write to db
+    localStorage.setItem(keyDataHabit2, valueDataHabit2);
+    // display from db
+    $('.container-data-habit2').html('<div class="display-data-habit2" data-keyValue="'+keyDataHabit2+'">'+valueDataHabit2+'</div>');
+    'habit2'
+    $('.input-habit2').val('');
+  });
+
+  // delete item
+  $('.btn-delete-habit2').on('click', function(e){
+
+var habit2keyvalue = $('.display-data-habit2')
+localStorage.removeItem('habit2');
+$('.container-data-habit2').text('');
+  });
+
+//*********HABIT 2 FEELING WORDS*********
+  //Add Habit FeelingWords Button
+  $('.btn-add-habit2-feelingwords').on('click', function(e){
+  var keyDataHabit2Fw = 'fw2'
+  var valueDataHabit2Fw = $('.input-habit2-feelingwords').val();
+    // write to db
+    localStorage.setItem(keyDataHabit2Fw, valueDataHabit2Fw);
+    // display from db
+    $('.container-data-habit2-feelingwords').html('<div class="display-data-habit2-feelingwords" data-keyValue="'+keyDataHabit2Fw+'">'+valueDataHabit2Fw+'</div>');
+    'fw2'
+    $('.input-habit2-feelingwords').val('');
+  });
+
+  // delete item
+  $('.btn-delete-habit2-feelingwords').on('click', function(e){
+
+var habit2keyvalue = $('.display-data-habit2-feelingword')
+localStorage.removeItem('fw2');
+$('.container-data-habit2-feelingwords').text('');
+  });
+
+//*********HABIT 3*********
+
+  //Add Habit Button
+  $('.btn-add-habit3').on('click', function(e){
+  var keyDataHabit3 = 'habit3'
+  var valueDataHabit3 = $('.input-habit3').val();
+    // write to db
+    localStorage.setItem(keyDataHabit3, valueDataHabit3);
+    // display from db
+    $('.container-data-habit3').html('<div class="display-data-habit3" data-keyValue="'+keyDataHabit3+'">'+valueDataHabit3+'</div>');
+    'habit3'
+    $('.input-habit3').val('');
+  });
+
+  // delete item
+  $('.btn-delete-habit3').on('click', function(e){
+
+var habit3keyvalue = $('.display-data-habit3')
+localStorage.removeItem('habit3');
+$('.container-data-habit3').text('');
+  });
+
+//*********HABIT 3 FEELING WORDS*********
+  //Add Habit FeelingWords Button
+  $('.btn-add-habit3-feelingwords').on('click', function(e){
+  var keyDataHabit3Fw = 'fw3'
+  var valueDataHabit3Fw = $('.input-habit3-feelingwords').val();
+    // write to db
+    localStorage.setItem(keyDataHabit3Fw, valueDataHabit3Fw);
+    // display from db
+    $('.container-data-habit3-feelingwords').html('<div class="display-data-habit3-feelingwords" data-keyValue="'+keyDataHabit3Fw+'">'+valueDataHabit3Fw+'</div>');
+    'fw3'
+    $('.input-habit3-feelingwords').val('');
+  });
+
+  // delete item
+  $('.btn-delete-habit3-feelingwords').on('click', function(e){
+
+var habit3keyvalue = $('.display-data-habit3-feelingword')
+localStorage.removeItem('fw3');
+$('.container-data-habit3-feelingwords').text('');
+  });
+
+
+
+
+
 
 
 
